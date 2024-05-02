@@ -35,7 +35,7 @@ func BroadcastMsgsWithSeq(
 	}
 
 	bondDenom := denoms.NIBI
-	txBuilder.SetFeeAmount(sdk.NewCoins(sdk.NewCoin(bondDenom, sdk.NewInt(1000))))
+	txBuilder.SetFeeAmount(sdk.NewCoins(sdk.NewCoin(bondDenom, sdk.NewInt(50000))))
 	txBuilder.SetGasLimit(uint64(2 * common.TO_MICRO))
 
 	nums, err := args.gosdk.GetAccountNumbers(from.String())
