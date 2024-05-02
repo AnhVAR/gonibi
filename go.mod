@@ -1,4 +1,4 @@
-module github.com/Unique-Divine/gonibi
+module github.com/AnhVAR/gonibi
 
 go 1.19
 
